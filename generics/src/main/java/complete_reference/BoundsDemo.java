@@ -17,6 +17,12 @@ public class BoundsDemo {
         double w = dob.average();
         System.out.println("dob average is " + w);
 
+        System.out.print("Averages of iob and dob ");
+        if(iob.sameAvg(dob))
+            System.out.println("are the same.");
+        else
+            System.out.println("differ.");
+
         // This won't compile because String is not a
         // subclass of Number.
 //        String strs[] = { "1", "2", "3", "4", "5" };
@@ -50,5 +56,12 @@ class Stats<T extends Number> {
             sum += nums[i].doubleValue();
 
         return sum / nums.length;
+    }
+
+    boolean sameAvg(Stats<?> ob) {
+        if(average() == ob.average())
+            return true;
+
+        return false;
     }
 }
