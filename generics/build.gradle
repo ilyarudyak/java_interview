@@ -4,7 +4,7 @@ apply plugin: 'java'
 apply plugin: 'application'
 
 //mainClassName = "complete_reference.GenDemo"
-mainClassName = "complete_reference.BoundsDemo"
+mainClassName = "complete_reference.GenIFDemo"
 
 repositories {
     mavenCentral()
