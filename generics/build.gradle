@@ -6,7 +6,7 @@ apply plugin: 'application'
 //mainClassName = "complete_reference.GenDemo"
 //mainClassName = "complete_reference.GenIFDemo"
 //mainClassName = "misc.GenArray"
-mainClassName = "liang.WildCardNeedDemo"
+mainClassName = "liang.TestIntegerMatrix"
 
 repositories {
     mavenCentral()
