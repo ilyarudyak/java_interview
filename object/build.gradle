@@ -3,7 +3,7 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "misc.pack2.B"
+mainClassName = "complete_reference.p1.Derived"
 
 repositories {
     mavenCentral()
