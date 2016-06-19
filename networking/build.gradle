@@ -16,6 +16,9 @@ dependencies {
 }
 
 task execute(type:JavaExec) {
+    if(project.hasProperty('myargs')){
+        args(myargs.split(','))
+    }
     main = mainClass
     classpath = sourceSets.main.runtimeClasspath
 }
