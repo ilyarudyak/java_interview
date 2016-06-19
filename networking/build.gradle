@@ -1,9 +1,10 @@
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'application'
+//apply plugin: 'application'
 
-mainClassName = "complete_reference.GenDemo"
+//mainClassName = "liang.Server"
+//mainClassName = "liang.Client"
 
 
 repositories {
@@ -12,4 +13,9 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+task execute(type:JavaExec) {
+    main = mainClass
+    classpath = sourceSets.main.runtimeClasspath
 }
