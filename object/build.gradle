@@ -3,7 +3,7 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "impatient_java.Manager"
+mainClassName = "impatient_java.DiscountedItem"
 
 repositories {
     mavenCentral()
