@@ -3,7 +3,7 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "complete_reference.p1.Derived"
+mainClassName = "effective_java.PhoneNumber"
 
 repositories {
     mavenCentral()
