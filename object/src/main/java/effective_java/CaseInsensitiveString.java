@@ -43,8 +43,12 @@ public class CaseInsensitiveString {
     // This version is correct - no comparison with String at all
      @Override
      public boolean equals(Object o) {
-     return o instanceof CaseInsensitiveString &&
-     ((CaseInsensitiveString) o).s.equalsIgnoreCase(s);
+
+         if ( !(o instanceof CaseInsensitiveString) ) {
+             return false;
+         }
+
+     return s.equalsIgnoreCase( ( (CaseInsensitiveString) o ).s );
      }
 
     public static void main(String[] args) {
