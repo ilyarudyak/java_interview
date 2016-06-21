@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="120c6bd3-ca83-4b52-a6ad-2c100edc4106" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/liang/CalendarDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/liang/iterable/MyAbstractList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/liang/iterable/MyArrayList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/liang/iterable/MyList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../generics/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../generics/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
@@ -38,28 +40,67 @@
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LargestNumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/liang/LargestNumbers.java">
+      <file leaf-file-name="MyList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/liang/iterable/MyList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalendarDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/liang/CalendarDemo.java">
+      <file leaf-file-name="MyAbstractList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/liang/iterable/MyAbstractList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08522727">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/liang/iterable/MyArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.77272725">
+              <caret line="168" column="43" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
+              <folding>
+                <element signature="docComment;class#MyArrayList#0" expanded="false" />
+                <element signature="docComment;method#MyArrayList#0;class#MyArrayList#0" expanded="false" />
+                <element signature="method#MyArrayList#0;class#MyArrayList#0" expanded="false" />
+                <element signature="docComment;method#MyArrayList#1;class#MyArrayList#0" expanded="false" />
+                <element signature="method#MyArrayList#1;class#MyArrayList#0" expanded="false" />
+                <element signature="method#add#0;class#MyArrayList#0" expanded="false" />
+                <element signature="docComment;method#ensureCapacity#0;class#MyArrayList#0" expanded="false" />
+                <element signature="method#ensureCapacity#0;class#MyArrayList#0" expanded="false" />
+                <element signature="e#1326#1335#0" expanded="false" />
+                <element signature="method#clear#0;class#MyArrayList#0" expanded="false" />
+                <element signature="method#contains#0;class#MyArrayList#0" expanded="false" />
+                <element signature="method#get#0;class#MyArrayList#0" expanded="false" />
+                <element signature="method#checkIndex#0;class#MyArrayList#0" expanded="false" />
+                <element signature="method#indexOf#0;class#MyArrayList#0" expanded="false" />
+                <element signature="method#lastIndexOf#0;class#MyArrayList#0" expanded="false" />
+                <element signature="method#remove#0;class#MyArrayList#0" expanded="false" />
+                <element signature="method#set#0;class#MyArrayList#0" expanded="false" />
+                <element signature="method#toString#0;class#MyArrayList#0" expanded="false" />
+                <element signature="docComment;method#trimToSize#0;class#MyArrayList#0" expanded="false" />
+                <element signature="method#trimToSize#0;class#MyArrayList#0" expanded="false" />
+                <element signature="method#main#0;class#MyArrayList#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -269,7 +310,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2932216786000" />
+        <entry key="$PROJECT_DIR$" value="2932222459000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -383,8 +424,11 @@
         <option value="$PROJECT_DIR$/src/main/java/liang/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/liang/GeometricObjectDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/liang/LargestNumbers.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/liang/CalendarDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/liang/iterable/MyList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/liang/iterable/MyAbstractList.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/liang/iterable/MyArrayList.java" />
       </list>
     </option>
   </component>
@@ -499,6 +543,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="liang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iterable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1054,27 +1128,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liang/LargestNumbers.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/liang/CalendarDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/liang/LargestNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53977275">
           <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/liang/iterable/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/liang/iterable/MyAbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/liang/CalendarDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/liang/iterable/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08522727">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
+        <state vertical-scroll-proportion="0.77272725">
+          <caret line="168" column="43" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
+          <folding>
+            <element signature="docComment;class#MyArrayList#0" expanded="false" />
+            <element signature="docComment;method#MyArrayList#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#MyArrayList#0;class#MyArrayList#0" expanded="false" />
+            <element signature="docComment;method#MyArrayList#1;class#MyArrayList#0" expanded="false" />
+            <element signature="method#MyArrayList#1;class#MyArrayList#0" expanded="false" />
+            <element signature="method#add#0;class#MyArrayList#0" expanded="false" />
+            <element signature="docComment;method#ensureCapacity#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#ensureCapacity#0;class#MyArrayList#0" expanded="false" />
+            <element signature="e#1326#1335#0" expanded="false" />
+            <element signature="method#clear#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#contains#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#get#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#checkIndex#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#indexOf#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#lastIndexOf#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#remove#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#set#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#toString#0;class#MyArrayList#0" expanded="false" />
+            <element signature="docComment;method#trimToSize#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#trimToSize#0;class#MyArrayList#0" expanded="false" />
+            <element signature="method#main#0;class#MyArrayList#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
