@@ -3,8 +3,9 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "complete_reference.AskMe"
+//mainClassName = "complete_reference.AskMe"
 //mainClassName = "impatient_java.Network"
+mainClassName = "effective_java.WeightTable"
 
 repositories {
     mavenCentral()
