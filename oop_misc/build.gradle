@@ -3,7 +3,7 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "complete_reference.InnerClassDemo"
+mainClassName = "complete_reference.VarArgs4"
 //mainClassName = "impatient_java.Network"
 
 repositories {
