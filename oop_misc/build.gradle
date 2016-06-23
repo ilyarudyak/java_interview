@@ -5,7 +5,8 @@ apply plugin: 'application'
 
 //mainClassName = "complete_reference.AskMe"
 //mainClassName = "impatient_java.Network"
-mainClassName = "effective_java.WeightTable"
+//mainClassName = "effective_java.WeightTable"
+mainClassName = "liang.Student"
 
 repositories {
     mavenCentral()
