@@ -3,7 +3,7 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "head_first.composite.Bigram"
+mainClassName = "head_first.composite.menu.MenuTestDrive"
 
 repositories {
     mavenCentral()
