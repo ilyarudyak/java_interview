@@ -1,7 +1,9 @@
 package effective_java;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
+import java.util.function.ObjDoubleConsumer;
 
 /**
  * Created by ilyarudyak on 6/24/16.
@@ -16,8 +18,9 @@ public class Bigram {
         this.second = second;
     }
 
-    public boolean equals(Bigram b) {
-        return b.first == first && b.second == second;
+    @Override
+    public boolean equals(Object b) {
+        return ((Bigram)b).first == first && ((Bigram)b).second == second;
     }
 
     public int hashCode() {
@@ -34,9 +37,9 @@ public class Bigram {
 
     public static void main(String[] args) {
         Set<Bigram> s = new HashSet<>();
-        for (int i = 0; i < 2; i++)
+        for (int i = 0; i < 10; i++)
             for (char ch = 'a'; ch <= 'z'; ch++)
                 s.add(new Bigram(ch, ch));
-        System.out.println(s);
+        System.out.println(s.size());
     }
 }
