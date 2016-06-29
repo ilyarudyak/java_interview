@@ -5,8 +5,20 @@ package head_first.decorator.starbuzz;
  */
 public abstract class Beverage {
 
-    protected String description = "Unknown Beverage";
+    public enum Size { TALL, GRANDE, VENTI };
+    protected Size size; // = Size.TALL;
+    public void setSize(Size size) {
+        this.size = size;
+    }
+    public Size getSize() {
+        return this.size;
+    }
 
+    public Beverage() {
+        size = Size.TALL;
+    }
+
+    protected String description = "Unknown Beverage";
     public String getDescription() {
         return description;
     }
@@ -15,6 +27,6 @@ public abstract class Beverage {
 
     @Override
     public String toString() {
-        return getDescription() + ": $" + cost();
+        return getDescription() + " size: " + getSize() + " price: $" + cost();
     }
 }

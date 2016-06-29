@@ -34,6 +34,18 @@ public class StarbuzzCoffeeDemo {
         beverage3 = new Whip(beverage3);
         System.out.println(beverage3.getDescription()
                 + " $" + beverage3.cost());
+
+        System.out.println();
+        Beverage b = new Espresso();
+        b = new Soy(b);
+        System.out.println(b);
+
+        Beverage b2 = new Espresso();
+        b2.setSize(Beverage.Size.GRANDE);
+        System.out.println(b2.getSize());
+        b2 = new Soy(b2);
+        System.out.println(b2.getSize());
+        System.out.println(b2);
     }
 }
 
