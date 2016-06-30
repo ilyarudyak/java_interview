@@ -7,23 +7,22 @@ import javax.swing.*;
  */
 public class FlashingText extends JApplet {
 
-    private JLabel jlblText = new JLabel("Welcome", JLabel.CENTER);
+    private JLabel label = new JLabel("Welcome", JLabel.CENTER);
 
     public FlashingText() {
-        add(jlblText);
+        add(label);
         new Thread( () -> {
             try {
                 while (true) {
-                    if (jlblText.getText() == null)
-                        jlblText.setText("Welcome");
+                    if (label.getText() == null)
+                        label.setText("Welcome");
                     else
-                        jlblText.setText(null);
+                        label.setText(null);
 
                     Thread.sleep(1000);
                 }
             }
-            catch (InterruptedException ex) {
-            }
+            catch (InterruptedException ex) { }
         } ).start();
     }
 
