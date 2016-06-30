@@ -1,5 +1,8 @@
 package liang;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 /**
  * Created by ilyarudyak on 6/30/16.
  */
@@ -21,8 +24,7 @@ public class TaskThreadDemo {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
-
+    public static void demoSeparateThreads() throws InterruptedException {
         // Create threads
         Thread thread1 = new Thread( () -> printChar('-', 100) );
         Thread thread2 = new Thread( () -> printChar('X', 100) );
@@ -35,6 +37,48 @@ public class TaskThreadDemo {
         thread2.start();
         thread2.join();
         thread3.start();
+    }
 
+    public static void demoThreadPool() throws InterruptedException {
+
+        // Create a fixed thread pool with maximum three threads
+        ExecutorService executor = Executors.newFixedThreadPool(3);
+
+        // Submit runnable tasks to the executor
+        executor.execute( () -> printChar('-', 500) );
+        executor.execute( () -> printChar('X', 500) );
+        executor.execute( () -> printNum(500) );
+
+        // Shut down the executor
+        executor.shutdown();
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+
+//        demoSeparateThreads();
+        demoThreadPool();
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
