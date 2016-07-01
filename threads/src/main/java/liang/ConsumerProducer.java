@@ -2,6 +2,7 @@ package liang;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Condition;
@@ -14,6 +15,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ConsumerProducer {
 
     private static Buffer buffer = new Buffer();
+    private static ArrayBlockingQueue<Integer> buffer2 = new ArrayBlockingQueue<>(2);
 
     // An inner class for buffer
     private static class Buffer {
@@ -69,10 +71,11 @@ public class ConsumerProducer {
         ExecutorService executor = Executors.newFixedThreadPool(2);
         executor.execute( () -> {
             try {
-                int i = 1;
+                Integer i = 1;
                 while (true) {
                     System.out.println("Producer writes " + i);
-                    buffer.write(i++); // Add a value to the buffer
+//                    buffer.write(i++); // Add a value to the buffer
+                    buffer2.put(i++);
                     // Put the thread into sleep
                     Thread.sleep((int)(Math.random() * 10000));
                 }
@@ -83,7 +86,8 @@ public class ConsumerProducer {
         executor.execute( () -> {
             try {
                 while (true) {
-                    System.out.println("\t\t\tConsumer reads " + buffer.read());
+//                    System.out.println("\t\t\tConsumer reads " + buffer.read());
+                    System.out.println("\t\t\tConsumer reads " + buffer2.take());
                     // Put the thread into sleep
                     Thread.sleep((int)(Math.random() * 10000));
                 }
