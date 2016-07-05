@@ -27,12 +27,15 @@ public class StringBuilderTest {
         assertEquals("appendTest error ...", hello, sb.toString());
     }
 
-    @Test
+    @Test @Ignore
     public void sqrtTest() {
-
         assertEquals("sqrtTest error ...", 1.414213562, Math.sqrt(2), 1E-7);
     }
 
+    @Test(expected = IndexOutOfBoundsException.class)
+    public void exceptionTest() {
+        sb.insert(-1, "");
+    }
 }
 
 
