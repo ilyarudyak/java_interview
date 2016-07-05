@@ -32,7 +32,7 @@ public class StringBuilderTest {
         assertEquals("sqrtTest error ...", 1.414213562, Math.sqrt(2), 1E-7);
     }
 
-    @Test(expected = IndexOutOfBoundsException.class)
+    @Test(expected = IndexOutOfBoundsException.class) @Ignore
     public void exceptionTest() {
         sb.insert(-1, "");
     }
