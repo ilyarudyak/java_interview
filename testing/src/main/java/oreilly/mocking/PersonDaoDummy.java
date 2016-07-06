@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by ilyarudyak on 7/5/16.
  */
-public class PersonDummy implements PersonDao {
+public class PersonDaoDummy implements PersonDao {
     public List<Person> getAll() {
         return null;
     }
