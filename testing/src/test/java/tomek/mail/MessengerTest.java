@@ -8,24 +8,29 @@ import static org.mockito.Mockito.when;
 
 public class MessengerTest {
 
-    private static final String CLIENT_EMAIL = "dearjohn@gmail.com";
+    private static final String CLIENT_EMAIL_ADDRESS = "dearjohn@gmail.com";
     private static final String MSG_CONTENT = "Hello, dear John!";
 
     @Test
     public void shouldSendEmail() {
 
+        // this is just a DUMMY
         Template template = mock(Template.class);
+
         Client client = mock(Client.class);
-        MailServer mailServer = mock(MailServer.class);
+        when(client.getEmailAddress()).thenReturn(CLIENT_EMAIL_ADDRESS);
+
+        // this is a STUB - it returns predefined value (indirect input)
         TemplateEngine templateEngine = mock(TemplateEngine.class);
-
-        Messenger sut = new Messenger(mailServer, templateEngine);
-
-        when(client.getEmail()).thenReturn(CLIENT_EMAIL);
         when(templateEngine.prepareMessage(template, client)).thenReturn(MSG_CONTENT);
 
-        sut.sendMessage(client, template);
+        // and this is a MOCK - we verify indirect output;
+        MailServer mailServer = mock(MailServer.class);
 
-        verify(mailServer).send(CLIENT_EMAIL, MSG_CONTENT);
+        // this is our SUT; we send message and
+        // verify that it is actually sent from mailServer
+        Messenger sut = new Messenger(mailServer, templateEngine);
+        sut.sendMessage(client, template);
+        verify(mailServer).send(CLIENT_EMAIL_ADDRESS, MSG_CONTENT);
     }
 }

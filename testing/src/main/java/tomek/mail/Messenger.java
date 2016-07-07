@@ -14,8 +14,9 @@ public class Messenger {
     }
 
     public void sendMessage(Client client, Template template) {
-        String msgContent =
-                templateEngine.prepareMessage(template, client);
-        mailServer.send(client.getEmail(), msgContent);
+
+        // template is DUMMY; templateEngine is STUB
+        String msgContent = templateEngine.prepareMessage(template, client);
+        mailServer.send(client.getEmailAddress(), msgContent);
     }
 }
