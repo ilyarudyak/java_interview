@@ -1,0 +1,56 @@
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:count="1" yahoo:created="2016-07-04T22:33:53Z" yahoo:lang="en-US">
+<results>
+<channel>
+<yweather:units xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" distance="mi" pressure="in" speed="mph" temperature="F"/>
+<title>Yahoo! Weather - New York, NY, US</title>
+<link>
+http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2459115/
+</link>
+<description>Yahoo! Weather for New York, NY, US</description>
+<language>en-us</language>
+<lastBuildDate>Mon, 04 Jul 2016 06:33 PM EDT</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" city="New York" country="United States" region=" NY"/>
+<yweather:wind xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" chill="79" direction="165" speed="29"/>
+<yweather:atmosphere xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" humidity="60" pressure="1013.0" rising="0" visibility="16.1"/>
+<yweather:astronomy xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" sunrise="5:31 am" sunset="8:30 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>
+http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif
+</url>
+</image>
+<item>
+<title>Conditions for New York, NY, US at 05:00 PM EDT</title>
+<geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">40.71455</geo:lat>
+<geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-74.007118</geo:long>
+<link>
+http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2459115/
+</link>
+<pubDate>Mon, 04 Jul 2016 05:00 PM EDT</pubDate>
+<yweather:condition xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="23" date="Mon, 04 Jul 2016 05:00 PM EDT" temp="78" text="Breezy"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="39" date="04 Jul 2016" day="Mon" high="82" low="68" text="Scattered Showers"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="12" date="05 Jul 2016" day="Tue" high="85" low="71" text="Rain"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="34" date="06 Jul 2016" day="Wed" high="89" low="75" text="Mostly Sunny"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="4" date="07 Jul 2016" day="Thu" high="91" low="78" text="Thunderstorms"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="47" date="08 Jul 2016" day="Fri" high="88" low="78" text="Scattered Thunderstorms"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="4" date="09 Jul 2016" day="Sat" high="86" low="75" text="Thunderstorms"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="10 Jul 2016" day="Sun" high="85" low="75" text="Partly Cloudy"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="11 Jul 2016" day="Mon" high="83" low="70" text="Partly Cloudy"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="12 Jul 2016" day="Tue" high="83" low="70" text="Partly Cloudy"/>
+<yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="13 Jul 2016" day="Wed" high="84" low="70" text="Partly Cloudy"/>
+<description>
+<![CDATA[<img src="http://l.yimg.com/a/i/us/we/52/23.gif"/> <BR /> <b>Current Conditions:</b> <BR />Breezy <BR /> <BR /> <b>Forecast:</b> <BR /> Mon - Scattered Showers. High: 82Low: 68 <BR /> Tue - Rain. High: 85Low: 71 <BR /> Wed - Mostly Sunny. High: 89Low: 75 <BR /> Thu - Thunderstorms. High: 91Low: 78 <BR /> Fri - Scattered Thunderstorms. High: 88Low: 78 <BR /> <BR /> <a href="http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2459115/">Full Forecast at Yahoo! Weather</a> <BR /> <BR /> (provided by <a href="http://www.weather.com" >The Weather Channel</a>) <BR /> ]]>
+</description>
+<guid isPermaLink="false"/>
+</item>
+</channel>
+</results>
+</query>
+<!--  total: 13  -->
+<!--
+ prod_bf1_1;paas.yql;queryyahooapiscomproductionbf1;3b9813c0-3f29-11e6-9754-d4ae52974741 
+-->
