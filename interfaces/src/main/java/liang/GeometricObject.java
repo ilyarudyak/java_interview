@@ -5,7 +5,7 @@ public abstract class GeometricObject {
   private boolean filled;
   private java.util.Date dateCreated;
 
-  /** Construct a default geometric object */
+  /** Construct a java8 geometric object */
   protected GeometricObject() {
     dateCreated = new java.util.Date();
   }

@@ -7,7 +7,7 @@ public abstract class MyAbstractList<E> implements MyList<E> {
 
     protected int size = 0; // The size of the list
 
-    /** Create a default list */
+    /** Create a java8 list */
     protected MyAbstractList() {
     }
 

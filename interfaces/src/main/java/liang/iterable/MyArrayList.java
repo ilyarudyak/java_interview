@@ -11,7 +11,7 @@ public class MyArrayList<E> extends MyAbstractList<E> {
     @SuppressWarnings("unchecked")
     private E[] data = (E[])new Object[INITIAL_CAPACITY];
 
-    /** Create a default list */
+    /** Create a java8 list */
     public MyArrayList() {
     }
 
